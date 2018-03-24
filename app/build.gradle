@@ -31,6 +31,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -47,6 +48,8 @@ dependencies {
     })
 
     testImplementation 'junit:junit:4.12'
-    compile project(":JokeSource")
+    // This is removed, cuz now we get jokes from the endpoint server
+    //compile project(":JokeSource")
+    endpointsServer project(path: ':backend')
     compile project(":jokedisplayer")
 }
