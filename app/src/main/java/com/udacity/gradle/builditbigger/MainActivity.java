@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         // To grab data from server.
         // Server grab data from JokeSource Java library.
         // Then inside AsyncTask in method "onPostExecute" an Intent take that data.
-        // Send it to jokedisplayer Android library.
+        // Send it to jokeDisplayer Android library.
         new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
 
     }

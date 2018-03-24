@@ -51,5 +51,5 @@ dependencies {
     // This is removed, cuz now we get jokes from the endpoint server
     //compile project(":JokeSource")
     endpointsServer project(path: ':backend')
-    compile project(":jokedisplayer")
+    compile project(':jokeDisplayer')
 }

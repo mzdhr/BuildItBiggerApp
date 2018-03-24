@@ -32,5 +32,5 @@ dependencies {
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
 
     // Introduce a project dependency between your Java library and your GCE module
-    compile project(":JokeSource")
+    compile project(':jokeSource')
 }
