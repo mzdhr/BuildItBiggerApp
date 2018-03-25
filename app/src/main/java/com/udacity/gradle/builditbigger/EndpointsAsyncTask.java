@@ -56,13 +56,11 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
 
     @Override
     protected void onPostExecute(String result) {
-//        Toast.makeText(mContext, result, Toast.LENGTH_LONG).show();
-//        Log.d(TAG, "onPostExecute: result: " + result);
-
         // Create an Intent to use the Display Joke Android Library
         Intent intent = new Intent(mContext, JokeDisplayerActivity.class);
 
-        // Putting the Joke inside the intent and send it through the Intent to the Display Activity
+        // Putting the Joke inside the intent as extra.
+        // And send it through the Intent to the Display Activity "jokeDisplayer Android Library".
         intent.putExtra("JOKE_KEY", result);
         mContext.startActivity(intent);
     }

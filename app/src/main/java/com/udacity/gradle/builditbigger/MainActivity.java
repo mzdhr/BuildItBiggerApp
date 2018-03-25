@@ -40,23 +40,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-//        // Create an Intent to use the Display Joke Android Library
-//        Intent intent = new Intent(this, JokeDisplayerActivity.class);
-//
-//        // Create a Joke from Joke Java Library
-//        Joke jokeSource = new Joke();
-//
-//        // Putting the Joke inside the intent and send it through the Intent to the Display Activity
-//        String joke = jokeSource.getJoke();
-//        intent.putExtra("JOKE_KEY", joke);
-//        startActivity(intent);
-        // Trigger an AsyncTask.
-        // To grab data from server.
-        // Server grab data from JokeSource Java library.
-        // Then inside AsyncTask in method "onPostExecute" an Intent take that data.
-        // Send it to jokeDisplayer Android library.
+        // Trigger an AsyncTask "EndpointsAsyncTask.java".
+        // To grab data from the server "backend".
+        // The server grab data from "JokeSource Java library".
+        // And a method "onPostExecute" inside "AsyncTask" send data result as extra Intent.
+        // To joke "jokeDisplayer Android library".
         new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
-
     }
 
 }
