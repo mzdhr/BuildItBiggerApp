@@ -27,8 +27,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="jokeSource" exported="" />
-    <orderEntry type="module" module-name="jokeSource" exported="" />
+    <orderEntry type="module" module-name="jokesource" exported="" />
+    <orderEntry type="module" module-name="jokesource" exported="" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="endpoints-framework-2.0.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-appengine-1.21.0" level="project" />
@@ -38,7 +38,6 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-android-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-core-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="guava-19.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-models-1.5.9" level="project" />
@@ -55,11 +54,12 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jsr305-3.0.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="slf4j-nop-1.7.21" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="slf4j-api-1.7.21" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-annotations-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-lang3-3.2.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="validation-api-1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="hamcrest-core-1.3" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jdo2-api-2.3-eb" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="joda-time-2.2" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="snakeyaml-1.12" level="project" />

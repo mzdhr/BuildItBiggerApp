@@ -3,6 +3,7 @@ package com.udacity.gradle.builditbigger;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.util.Pair;
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
@@ -58,7 +59,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     protected void onPostExecute(String result) {
         // Create an Intent to use the Display Joke Android Library
         Intent intent = new Intent(mContext, JokeDisplayerActivity.class);
-
+        Log.d(TAG, "onPostExecute: result ---> " + result);
         // Putting the Joke inside the intent as extra.
         // And send it through the Intent to the Display Activity "jokeDisplayer Android Library".
         intent.putExtra("JOKE_KEY", result);
