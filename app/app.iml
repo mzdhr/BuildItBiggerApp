@@ -135,6 +135,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes-jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
@@ -209,6 +210,8 @@
     <orderEntry type="library" name="com.google.android.gms:play-services-gass-license-11.8.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-ads-license-11.8.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-gass-11.8.0" level="project" />
+    <orderEntry type="module" module-name="jokeDisplayer" />
+    <orderEntry type="module" module-name="jokeDisplayer" />
     <orderEntry type="module" module-name="jokeDisplayer" />
     <orderEntry type="module" module-name="jokeDisplayer" />
     <orderEntry type="module" module-name="jokeDisplayer" />

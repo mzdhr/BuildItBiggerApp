@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class JokeDisplayerActivity extends AppCompatActivity {
-
+    public static final String JOKE_KEY = "joke_key";
     private static TextView mJokeTextView;
     private ImageView mCloseButton;
     private ImageView mShareButton;
@@ -26,7 +26,7 @@ public class JokeDisplayerActivity extends AppCompatActivity {
 
         // Receive Joke and Display it
         Intent intent = getIntent();
-        mJoke = intent.getStringExtra("JOKE_KEY");
+        mJoke = intent.getStringExtra(JOKE_KEY);
         if (mJoke != null && mJoke.length() != 0) {
             mJokeTextView.setText(mJoke);
         }

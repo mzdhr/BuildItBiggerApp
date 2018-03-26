@@ -15,15 +15,6 @@ import com.google.api.server.spi.config.ApiNamespace;
         )
 )
 public class MyJokeEndpoint {
-
-//    /** A simple endpoint method that takes a name and says Hi back */
-//    @ApiMethod(name = "sayHi")
-//    public MyJokeBean sayHi(@Named("name") String name) {
-//        MyJokeBean response = new MyJokeBean();
-//        response.setData("Hi, " + name);
-//        return response;
-//    }
-
     /**
      * A simple endpoint method that tell a joke
      */

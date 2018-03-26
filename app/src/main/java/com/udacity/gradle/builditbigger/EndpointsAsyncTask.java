@@ -15,6 +15,8 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
 import java.io.IOException;
 
+import static com.mzdhr.jokedisplayer.JokeDisplayerActivity.JOKE_KEY;
+
 /**
  * Created by mohammad on 24/03/2018.
  */
@@ -51,7 +53,8 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
         try {
             return myApiService.getJoke().execute().getJokes();
         } catch (IOException e) {
-            return e.getMessage();
+            Log.d(TAG, "doInBackground: " + e.getMessage());
+            return "";
         }
     }
 
@@ -62,7 +65,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
         Log.d(TAG, "onPostExecute: result ---> " + result);
         // Putting the Joke inside the intent as extra.
         // And send it through the Intent to the Display Activity "jokeDisplayer Android Library".
-        intent.putExtra("JOKE_KEY", result);
+        intent.putExtra(JOKE_KEY, result);
         mContext.startActivity(intent);
     }
 }
