@@ -5,7 +5,7 @@ A joke telling android app and a backend server that has both free and paid vers
 * Technologies used are Google Cloud Endpoints, Gradle, Flavors, Custom Library, JUnit.
 
 ## Screenshots
-![preview](../master/preview.png "Baking App")
+<img src="../master/preview.png" width="400">
 
 ## Authors
 * **Mohammad Laif** - [Mzdhr](https://mzdhr.com)
